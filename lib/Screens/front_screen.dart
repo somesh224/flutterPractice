@@ -13,7 +13,9 @@ class Homepage extends StatelessWidget {
       ),
       
       body: const Center(
-        child: Text("Welcome to my first app"),
+        child: Text(
+          "Welcome to my first app",
+          style: TextStyle(fontSize: 20),),
       ),
 
       drawer: const Drawer(),
